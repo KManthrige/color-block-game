@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +13,17 @@
 </head>
 <h1>Color Block Game</h1>
 <h3>Select one of the four color blocks to see if you won.</h3>
+
 <body>
-    <div class="red"></div>
-    <div class="blue"></div>
-    <div class="green"></div>
-    <div class="yellow"></div>
-</body>
+<div class="grid-container">
+    <div class="red" id="redBlock" value=0></div>
+    <div class="blue" id="blueBlock" value=1></div>
+    <div class="green" id="greenBlock" value=2></div>
+    <div class="yellow" id="yellowBlock" value=3></div>
+
+    <h3 class="colorPicked" >The color you picked: <span id="colorPicked"></span></h3>
+    <h3 class="wonLost">Result: <span id="wonLost"></span></h3>
+</div>
+</body> 
+
 </html>
